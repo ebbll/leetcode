@@ -1,6 +1,8 @@
+// Minimum cost to move chips to the same position
+
 int minCostToMoveChips(int* position, int positionSize){
 	int even = 0, odd = 0;
-	for (int i = 0; i < positionSize; i++)\
+	for (int i = 0; i < positionSize; i++)
 	{
 		if (position[i] % 2)
 			odd++;
