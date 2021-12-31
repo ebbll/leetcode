@@ -10,5 +10,5 @@ int minCostToMoveChips(int* position, int positionSize){
 	if (odd < even)
 		return (odd);
 	else
-    	return (even);
+		return (even);
 }
